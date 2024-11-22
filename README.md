@@ -15,8 +15,27 @@ Demetler de indeks numarasına sahiptir fakat indeks numaraları kullanılarak d
 
 Örnek Kod:
 
-demet (1,2.5,"Hello", 235)
+demet=(1,2.5,"Hello", 235)
 
 print(type(demet))
 
 <a href="https://github.com/ebrarrkaya/505/blob/527deb305db13de299a22e3eb00a43de2b46a49c/a2.png">Çıktımız ise şu şekilde olacaktır.</a>"tuple" yani demet anlamına gelmektedir.
+
+# Demet İçerisindeki Elemanların Konumlarını Bulma
+Demet içerisindeki elemanların konumlarını yani indeks numaralarını index() metoduyla bulabiliriz. Aynı şekilde her elemandan kaç tane olduğunu count() metodu ile hesaplayabiliriz. Örnek kodumuz üzerinden inceleyelim.
+
+Örnek Kod:
+
+demet=(1,2.5, "Hello",235)
+
+print(demet.index("Hello"))
+
+<a href="https://github.com/ebrarrkaya/505/blob/75e16ba77238793b44ba3f51291a9db9e448c6b7/A3.png">ÇIKTI İÇİN TIKLAYINIZ</a>
+
+Örnek Kod 2:
+
+demet=(1,2.5, "Hello",235)
+
+print(demet.count(235))
+
+<a href="https://github.com/ebrarrkaya/505/blob/b5ccc1e402d9610ee877ff8b91d18e6badb28b62/a4.png">ÇIKTI İÇİN TIKLAYINIZ</a>
