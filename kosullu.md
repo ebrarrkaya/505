@@ -19,19 +19,25 @@ Python'da if koşulu, programların belirli koşullar altında farklı işlemler
 yas=int(input("Lutfen yasinizi giriniz:"))
 
 if (yas>=18):
+
     print("Ehliyet alabilirsiniz")
 
 Örnek Kod 2:
 
 instagram_db={
+
 "usernamedb":"ebrr0ck",
+
 "sifredb":"12345",
+
 "date":"22.11.2024 - 15:18.15116"
+
 }
 
 username=input("Lutfen kullanici adini gir:")
 
 password=input("Lutfen sifreni gir:")
+
 if (instagram_db["usernamedb"]==username and instagram_db["sifredb"]==password):
 
     print("Sisteme hosgeldiniz {}".format(username))
