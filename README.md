@@ -19,4 +19,4 @@ demet (1,2.5,"Hello", 235)
 
 print(type(demet))
 
-<a href="https://github.com/ebrarrkaya/505/blob/527deb305db13de299a22e3eb00a43de2b46a49c/a2.png">Çıktımız ise şu şekilde olacaktır.Z</a>"tuple" yani demet anlamına gelmektedir.
+<a href="https://github.com/ebrarrkaya/505/blob/527deb305db13de299a22e3eb00a43de2b46a49c/a2.png">Çıktımız ise şu şekilde olacaktır.</a>"tuple" yani demet anlamına gelmektedir.
