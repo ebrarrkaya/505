@@ -25,6 +25,8 @@ print(api["username"]==db[0])
 
 print(api["password"]==db[1])
 
+<a href="https://github.com/ebrarrkaya/505/blob/62856b7f21386ca2d700d8cdcada810bc10c4c4d/a12.png">ÇIKTI İÇİN TIKLAYINIZ</a>
+
 # SÖZLÜĞÜN DEĞİŞTİRİLMESİ
 api["password"]="87654"
 
