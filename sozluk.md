@@ -1,4 +1,4 @@
-# SÖZLUK KAVRAMI
+# SÖZLÜK KAVRAMI
 Bilindiği üzere sözlükler, anahtar kelimeler ve o kelimelerin anlamlarından oluş maktadır. Python yazılım dilinde de sözlükler anahtar kelimeler ve onlara denk olan değerlerden oluşmaktadır. Bir sözlük oluşturulurken süslü parantez "{}" kullanılmaktadır. Anahtar kelime ve değer arasına iki nokta üst üste ":" sembolü konulmaktadır. Anahtar kelimeler string tipinde olmalıdır. Değerlerin ise veri kısıtlaması yoktur. İstediğiniz herhangi bir veri olabilir (liste, tam sayı, demet vb.)
 
 Sözlükler için konum değerleri bulunmamaktadır. Yani sözlükte bulunan verilerin bir indeks numarası yoktur.
