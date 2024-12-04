@@ -44,3 +44,75 @@ if (instagram_db["usernamedb"]==username and instagram_db["sifredb"]==password):
     print("Sisteme en son giris tarihi: {}".format(instagram_db["date"]))
 
 <a href="https://github.com/ebrarrkaya/505/blob/597e4d24b50df1fe62b802c3eb7f6c961275df98/a9.png">ÇIKTI İÇİN TIKLAYINIZ</a>
+
+# ELİF KOŞULU
+Elif koşulu, ikiden fazla koşulumuz varsa ilk koşul hariç diğer koşulları oluşturmak için kullanılmaktadır. Elif ifadesini kullandıktan sonra (tıpkı if koşulunda olduğu gibi) parantez içerisinde koşul ifademizi belirtiriz ve parantezi kapattıktan sonra iki nokta üst üste sembolunu kullanırız. Yani girinti oluşturmalıyız. Şimdi bu duruma örnek algoritma oluşturup, daha sonra ise algoritmayı kodlarımıza derleyelim.
+
+Örnek Kod:
+
+deger1=int(input("Lutfen birinci degeri giriniz: "))
+
+deger2=int(input("Lutfen ikinci degeri giriniz: "))
+
+deger3=int(input("Lutfen ucuncu degeri giriniz: "))
+
+if deger1>=deger2 and deger1>=deger3:
+
+    print("{} degeri en buyuk sayidir.".format(deger1))
+elif deger2>=deger1 and deger2>=deger3:
+
+    print("{} degeri en buyuk sayidir.".format(deger2))
+elif deger3>=deger1 and deger3>=deger2:
+
+    print("{} degeri en buyuk sayidir.".format(deger3))
+
+<a href="https://github.com/ebrarrkaya/202/blob/0b813e65fdfedbdac3fe98857f7cfb01412d8258/DDDD.png">ÇIKTI İÇİN TIKLAYINIZ</a>
+
+#  ELSE KOŞULU
+
+Else ifadesi bizim için "Girilen hiçbir koşul sağlanmıyorsa" anlamına gelmektedir, else ifadesinden sonra herhangi bir kontrol durumu girmemize gerek yoktur çünkü zaten kendi başına bir koşul belirtmektedir. Bu yüzden else koşulunda da girinti oluşturulması gereklidir.
+
+Örnek Kod 1:
+
+yas=int(input("Lutfen yasinizi giriniz: "))
+
+if(yas>=18):
+
+    print("Araba ve motor ehliyeti alabilirsiniz!")
+elif(yas>=15):
+
+    print("Motor ehliyeti alabilirsiniz!")
+else:
+
+    print("Ehliyet alamazsiniz!")
+
+<a href="https://github.com/ebrarrkaya/202/blob/65c7e1781650893acc67ef7c5e75921f4efbc245/eee.png">ÇIKTI 1</a>
+
+<a href="https://github.com/ebrarrkaya/202/blob/60c3b007a744658fa7a3e0155e8ec51814e2adb6/AAAAA.png">ÇIKTI 2</a>
+
+Örnek Kod 2: 
+
+kartno=123456
+
+cvv=110
+
+skt="10/28"
+
+kartnos=int(input("Kart Numarasi Giriniz: "))
+
+cvvs=int(input("Cvv Giriniz: "))
+
+skts=input("Son Kullanma Tarihini Giriniz(aa/yy): ")
+
+if kartnos==kartno and cvvs==cvv and skts==skt:
+
+    print("Sisteme hosgeldiniz!")
+else:
+
+    print("Sisteme giris yapilamiyor")
+
+<a href="https://github.com/ebrarrkaya/202/blob/2d71ce0b63823c0db6fc56713d28be018f9e87cf/gggg.png">ÇIKTI 1</a>
+
+<a href="https://github.com/ebrarrkaya/202/blob/d7eb3ef2caaf486f9cfcf4d7fbbfc038229ecd11/ffff.png">ÇIKTI 2</a>
+
+[KOŞULLU YAPILARA ÖRNEK KODLAR](https://github.com/ebrarrkaya/909/blob/7b8ef1ce8b65ed1afbe19327e6c27b9f46b8ea75/README.md)
