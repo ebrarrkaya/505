@@ -16,4 +16,4 @@ For döngüsü de girinti ile oluşturulması gereken bir yapıdır. Bu sebeple 
 
 Diğer döngüler genellikle belirli bir koşulu kontrol ederek çalışırken, "for" dön güsü belirtilen koleksiyonun elemanlarını birer birer alır ve döngü bloğunu her eleman için çalıştırır. Örneğin liste içerisinde sayıları sırasıyla ekrana yazmak istediğimizde print() fonksiyonunu kullanırız.
 
-[DÖNGÜLERLE İLGİLİ ÖRNEK KODLAR](https://github.com/ebrarrkaya/505/blob/5c146bb4bb815e782f12563413226ce5eee0d830/ebrarrrkaya.md)
+[FOR DÖNGÜLERİYLE İLGİLİ ÖRNEK KODLAR](https://github.com/ebrarrkaya/505/blob/5c146bb4bb815e782f12563413226ce5eee0d830/ebrarrrkaya.md)
